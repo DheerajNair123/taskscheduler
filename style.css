@@ -1,0 +1,74 @@
+body {
+    font-family:  Copperplate, Papyrus, fantasy;;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #67bfda, #9fd1dd);
+  }
+  
+  header {
+    background-color: rgb(24, 12, 78);
+    color: #60c427;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+  header h1:hover {
+    color: #48ff00; /* Change text color on hover */
+    cursor:grab; /* Change cursor to pointer on hover */
+    text-decoration:wavy; /* Add underline on hover */
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .task-list {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task button:hover {
+    background-color: #218838;
+  }
+  
+  .task button.mark-done {
+    background-color: #dc3545;
+  }
+  
+  .task button.mark-done:hover {
+    background-color: #c82333;
+  }
+  
